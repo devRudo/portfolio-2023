@@ -1,0 +1,49 @@
+.portfolio_container {
+    margin-top: 5rem;
+}
+
+.portfolio_cards_container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 3rem;
+}
+
+.portfolio_card {
+    padding: 1.5rem;
+    border: 2px solid var(--color-primary-variant);
+    background: var(--color-bg-variant);
+    border-radius: 30px;
+    flex: 1;
+}
+
+.project_pic {
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+}
+
+.portfolio_card > h3 {
+    margin-top: 1rem;
+}
+
+.cta_project {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    align-self: flex-start;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+
+@media screen and (max-width: 1024px) {
+   
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+
+@media screen and (max-width: 600px) {
+
+}

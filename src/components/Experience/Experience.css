@@ -1,0 +1,48 @@
+.experience_container {
+    margin-top: 5rem;
+}
+
+.experience_div {
+    display: flex;
+    margin-top: 5rem;
+    gap: 2rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.experience_card {
+    flex: 1;
+    background: var(--color-bg-variant);
+    padding: 2rem 6rem;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.experience_card > h2 {
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.skills {
+    margin-top: 2rem;
+    display: flex;
+    gap: 6rem;
+}
+
+.skills > ul > li {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.skills > ul > li > span {
+    font-size: 20px;
+    color: var(--color-primary);
+}
+
+.skills > ul > li h4{
+    color: var(--color-light);
+}
+

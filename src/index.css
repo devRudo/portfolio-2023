@@ -48,11 +48,16 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 500;
 }
 
-h1{
+h1 {
   font-weight: 2.5rem;
 }
 
@@ -60,7 +65,8 @@ section {
   margin-top: 8rem;
 }
 
-section > h2, section > h5 {
+section > h2,
+section > h5 {
   text-align: center;
   color: var(--color-light);
 }
@@ -73,7 +79,8 @@ section > h2 {
 }
 
 a {
-  color: var(--color-primary)
+  color: var(--color-primary);
+  cursor: pointer;
 }
 
 a:hover {
@@ -99,7 +106,7 @@ a:hover {
 
 .btn-primary {
   background: var(--color-primary);
-  color: var(--color-bg)
+  color: var(--color-bg);
 }
 
 img {
@@ -108,16 +115,15 @@ img {
   object-fit: cover;
 }
 
-
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 
 @media screen and (max-width: 1024px) {
-    .container {
-      width: var(--container-width-md);
-    }
-    section {
-      margin-top: 6rem;
-    }
+  .container {
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 6rem;
+  }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
@@ -126,7 +132,7 @@ img {
   .container {
     width: var(--container-width-sm);
   }
-  section > h2{
+  section > h2 {
     margin-bottom: 2rem;
   }
 }

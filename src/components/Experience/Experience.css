@@ -1,48 +1,78 @@
 .experience_container {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .experience_div {
-    display: flex;
-    margin-top: 5rem;
-    gap: 2rem;
-    justify-content: center;
-    width: 100%;
+  display: grid;
+  margin-top: 5rem;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
 }
 
 .experience_card {
-    flex: 1;
-    background: var(--color-bg-variant);
-    padding: 2rem 6rem;
-    border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
+  flex: 1;
+  background: var(--color-bg-variant);
+  padding: 2rem;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .experience_card > h2 {
-    text-align: center;
-    color: var(--color-primary);
+  text-align: center;
+  color: var(--color-primary);
 }
 
 .skills {
-    margin-top: 2rem;
-    display: flex;
-    gap: 6rem;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 12rem;
 }
 
 .skills > ul > li {
-    display: flex;
-    gap: 1rem;
-    margin-top: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 2rem;
 }
 
 .skills > ul > li > span {
-    font-size: 20px;
-    color: var(--color-primary);
+  font-size: 20px;
+  color: var(--color-primary);
+  margin-top: 0.2rem;
 }
 
-.skills > ul > li h4{
-    color: var(--color-light);
+.skills > ul > li h4 {
+  color: var(--color-light);
 }
 
+@media screen and (max-width: 1400px) {
+  .skills {
+    column-gap: 6rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .experience_div {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+  .skills {
+    column-gap: 12rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .experience_div {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .experience_card {
+    padding: 1rem;
+  }
+  .skills {
+    column-gap: 2rem;
+  }
+}

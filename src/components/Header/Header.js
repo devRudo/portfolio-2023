@@ -4,10 +4,11 @@ import CTA from './CTA';
 import PROFILE_PIC from './../../assets/profile_pic-preview.png';
 import SocialLinks from './SocialLinks';
 import './Header.css';
+import { Link } from 'react-scroll';
 
 const Header = props => {
   return (
-    <header>
+    <header id="home">
       <div class="container header_container">
         <h5>Hello I'am</h5>
         <h1>Vijay Kumar Mishra</h1>
@@ -19,9 +20,9 @@ const Header = props => {
           <img src={PROFILE_PIC} alt="profile pic" />
         </div>
 
-        <a href="#contact" className="scroll_down">
+        <Link to="footer" className="scroll_down">
           Scroll Down
-        </a>
+        </Link>
       </div>
     </header>
   );

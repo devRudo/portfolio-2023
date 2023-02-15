@@ -10,7 +10,7 @@ import './Portfolio.css';
 
 const Portfolio = props => {
   return (
-    <section className="container portfolio_container">
+    <section className="container portfolio_container" id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="portfolio_cards_container">
@@ -29,8 +29,6 @@ const Portfolio = props => {
           <h3>Project Title</h3>
           <CTA></CTA>
         </div>
-      </div>
-      <div className="portfolio_cards_container">
         <div className="portfolio_card">
           <img src={PROJECT_PIC_4} alt="" className="project_pic" />
           <h3>Project Title</h3>

@@ -26,9 +26,9 @@ const Footer = props => {
           <a href="https://github.com/devRudo" target={'__blank'}>
             <FaGithub />
           </a>
-          <a href="https://gitlab.com/devRudo" target={'__blank'}>
+          {/* <a href="https://gitlab.com/devRudo" target={'__blank'}>
             <FaGitlab />
-          </a>
+          </a> */}
         </div>
         <div className="copyright_info">&copy; All rights reserved</div>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import CTA from './CTA';
-import PROFILE_PIC from './../../assets/profile_pic-preview.png';
+import PROFILE_PIC from './../../assets/01.png';
 import SocialLinks from './SocialLinks';
 import './Header.css';
 import { Link } from 'react-scroll';
@@ -17,7 +17,7 @@ const Header = props => {
         <SocialLinks />
 
         <div className="profile_pic">
-          <img src={PROFILE_PIC} alt="profile pic" />
+          <img src={PROFILE_PIC} alt="profile pic" style={{width: '100%', height: '100%'}}/>
         </div>
 
         <Link to="footer" className="scroll_down">

@@ -65,25 +65,25 @@ const Contact = props => {
               <HiOutlineMail />
             </span>
             <h3>Email</h3>
-            <h5>sarrakvijay@gmail.com</h5>
-            <a href="mailto:sarrakvijay@gmail.com">Send an email</a>
+            <h5>devrudo@gmail.com</h5>
+            <a href="mailto:devrudo@gmail.com">Send an email</a>
           </div>
           <div className="contact_card call_card">
             <span>
               <BsTelephone />
             </span>
             <h3>Mobile Number</h3>
-            <h5>+91-8090192922</h5>
-            <a href="tel:+91-8090192922">Call me on</a>
+            <h5>+91-8840114181</h5>
+            <a href="tel:+91-8840114181">Call me on</a>
           </div>
           <div className="contact_card whatsapp_card">
             <span>
               <AiOutlineWhatsApp />
             </span>
             <h3>WhatsApp</h3>
-            <h5>+91-8090192922</h5>
+            <h5>+91-8840114181</h5>
             <a
-              href="https://api.whatsapp.com/send?phone=918090192922"
+              href="https://api.whatsapp.com/send?phone=918840114181"
               target={'__blank'}
             >
               Send a message

@@ -1,13 +1,15 @@
 import React from 'react';
-import CV from '../../assets/Updated_Resume_Feb_7.pdf';
+// import CV from '../../assets/Updated_Resume_Feb_7.pdf';
 
-const CTA = () => {
+const CTA = ({ github, demoLink }) => {
   return (
     <div className="cta_project">
-      <a href={CV} download className="btn">
-        Github
-      </a>
-      <a href="#contact" className="btn btn-primary">
+      {github ? (
+        <a href={github} target="_blank" download className="btn">
+          Github
+        </a>
+      ) : null}
+      <a href={demoLink} target="_blank" className="btn btn-primary">
         Live Demo
       </a>
     </div>

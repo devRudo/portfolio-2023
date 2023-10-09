@@ -26,14 +26,14 @@ const About = props => {
               <FiUsers />
             </span>
             <h3>Clients</h3>
-            <h5>40+ Satisfied Clients</h5>
+            <h5>5+ Satisfied Clients</h5>
           </div>
           <div className="about_card">
             <span>
               <HiOutlineRectangleStack />
             </span>
             <h3>Projets</h3>
-            <h5>13+ Projects</h5>
+            <h5>8+ Projects</h5>
           </div>
         </div>
         <div className="about_description">
